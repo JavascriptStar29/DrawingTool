@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>drawing</title>
+    <!--
+    <script src="/static/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    -->
+    <script src="/static/jquery-3.1.1.js"></script>
+    <script src="/static/jquery.pep.js"></script>
+    <script src="/static/fabric.js-1.6.6/dist/fabric.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quattrocento Sans', sans-serif;
+            line-height: 1.5em;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: none">
+        <img id="img-pier-stripes" src="/static/pier-stripes.png" />
+        <img id="img-image" src="/static/large-image.png" />
+        <img id="img-hatch" src="/static/hatch.png" />
+    </div>
+
+    <div id="app"></div>
+    <script>
+        var plan_path = '/static/large-image.png';
+        var hatch_path = '/static/hatch.png';
+        var pier_stripe_path = '/static/pier-stripes.png';
+        var asset_id = '10';
+        var proposal_id = '5';
+    </script>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
